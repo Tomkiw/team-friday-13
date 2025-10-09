@@ -1,0 +1,89 @@
+.section-asortment {}
+
+.assortment-container {
+    display: flex;
+}
+
+.assortment-list {}
+
+.assortment-item {
+    justify-content: center;
+}
+
+.assortment-img {
+    border-radius: 32px;
+    width: 288px;
+
+}
+
+.assortment-content {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.assortment-title {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #030a06;
+}
+
+.assortment-subject {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #030a06;
+}
+
+
+.assortment-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: center;
+    color: #030a06;
+}
+
+.assortment-price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    color: #030a06;
+}
+
+.assortment-btw {
+    border: 1px solid #030a06;
+    border-radius: 6px;
+    padding: 8px 20px;
+    width: 288px;
+    height: 40px;
+}
+
+.assortment-btw:hover {
+    background: #030a06;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.assortment-btw:focus {
+    opacity: 0.5;
+}
+
+.assortment-btw:active {
+    background: #113916;
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1440px) {}
+
+/* Текст Наші сумки є заголовком секції. У секції знаходиться перелік продукції компанії,
+який необхідно реалізувати як список елементів за допомогою <ul>. Кожен елемент списку,
+є карткою що містть в собі: зображення - повинно бути контентним. заголовок з назвою виробу - повинен мати рівень нижчий ніж заголовок секції. текст з описом. ціна. кнопка купити - з типом buttonПри наведенні на кнопку курсор повинен змінюватись. При навденні,
+фокусі та натисканні на кнопку вона повинна змінювати стилі відповідно до UI Kit */
