@@ -3,7 +3,36 @@
   <div class="assortment-container container">
     <ul class="assortment-list">
       <li class="assortment-item">
-        <div class="assortment-img"><img src="" alt="bags" /></div>
+        <div class="assortment-img">
+          <picture>
+            <source
+              srcset="
+                ./img/assortment/compress-desktop/classic-min.jpg    1x,
+                ./img/assortment/compress-desktop/classic@2x-min.jpg 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./img/assortment/compresss-tablet/classic-min.jpg    1x,
+                ./img/assortment/compresss-tablet/classic@2x-min.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./img/assortment/compress-mob/mob-x1-classic-min.jpg 1x,
+                ./img/assortment/compress-mob/mob-x2-classic-min.jpg 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              src="./img/assortment/compress-mob/mob-x1-classic-min.jpg"
+              alt="bag classic"
+              width="288"
+            />
+          </picture>
+        </div>
         <div class="assortment-content">
           <h3 class="assortment-subject">EcoTote Shopper</h3>
           <p class="assortment-text">
