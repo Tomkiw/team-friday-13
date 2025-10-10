@@ -12,13 +12,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 40px 0;
     background: #345594;
 }
 
 .assortment-item {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     align-items: center;
     max-width: 288px;
 }
@@ -26,7 +26,7 @@
 .assortment-img {
     border-radius: 32px;
     width: 288px;
-
+    overflow: hidden;
 }
 
 .assortment-content {
@@ -42,6 +42,9 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #030a06;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .assortment-subject {
