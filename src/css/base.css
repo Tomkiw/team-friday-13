@@ -1,5 +1,6 @@
 body {
     font-family: 'Fira Sans', sans-serif;
+    background: #ebf8ed;
 }
 
 .bold-comfortaa {
@@ -80,8 +81,8 @@ img {
 /* ------------- */
 .container {
     max-width: 320px;
-    padding-top: 32px;
     margin: 0 auto;
+    margin-top: 32px;
 }
 
 .section {
@@ -93,8 +94,8 @@ img {
 /* ----TABLET--- */
 @media screen and (min-width: 768px) {
     .container {
-        padding-top: 32px;
-
+        margin-top: 32px;
+        width: 704px;
     }
 
     .section {
@@ -107,7 +108,7 @@ img {
 /* ----DESKTOP--- */
 @media screen and (min-width: 1440px) {
     .container {
-        padding-top: 32px;
+        margin-top: 32px;
         width: 1312px;
     }
 
