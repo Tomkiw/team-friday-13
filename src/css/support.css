@@ -1,14 +1,17 @@
-.support-container {
-    box-sizing: border-box;
+.support {
     background-color: #EBF8ED;
-    padding: 32px 0;
+}
+
+.support-container {
+    padding: 0 16px;
     display: flex;
     flex-direction: column;
-    min-height: 1261px;
+    min-height: 1197px;
     background-image: url('/img/support/mobile-supportbckg.png');
     background-repeat: no-repeat;
-    background-position: bottom 32px left 50%;
+    background-position: bottom;
     background-size: 288px 428px;
+    background-origin: content-box;
 }
 
 @media (min-resolution: 192dpi) {
@@ -110,7 +113,7 @@
     border: 1px solid #030A06;
     border-radius: 6px;
     padding: 12px 24px;
-    width: 288px;
+    max-width: 288px;
     height: 50px;
 
     cursor: pointer;
@@ -131,10 +134,10 @@
 
 @media screen and (min-width: 768px) {
     .support-container {
-        padding: 64px 32px;
-        min-height: 1239px;
+        max-width: 768px;
+        padding: 0;
+        min-height: 1111px;
         background-image: url('/img/support/tablet-supportbckg.png');
-        background-position: bottom 64px left 50%;
         background-size: 704px 428px;
     }
 
@@ -147,7 +150,7 @@
     }
 
     .send-support-btn {
-        width: 249px;
+        max-width: 249px;
     }
 }
 
@@ -159,8 +162,9 @@
 
 @media screen and (min-width: 1440px) {
     .support-container {
-        padding: 64px 0px;
-        min-height: 896px;
+        max-width: 1312px;
+        padding: 0;
+        min-height: 768px;
         background-image: url('/img/support/desktop-supportbckg.png');
         background-size: 644px 767px;
         background-position: bottom 50% right 0;
@@ -180,7 +184,7 @@
     }
 
     .send-support-btn {
-        width: 198px;
+        max-width: 198px;
     }
 }
 
