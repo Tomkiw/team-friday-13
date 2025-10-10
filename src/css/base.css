@@ -1,5 +1,7 @@
 body {
     font-family: 'Fira Sans', sans-serif;
+    background: #ebf8ed;
+    color: #030a06;
 }
 
 .bold-comfortaa {
@@ -77,11 +79,19 @@ img {
     overflow: hidden;
 }
 
+.section-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+}
+
+
 /* ------------- */
 .container {
     max-width: 320px;
-    padding-top: 32px;
     margin: 0 auto;
+    margin-top: 32px;
 }
 
 .section {
@@ -93,8 +103,8 @@ img {
 /* ----TABLET--- */
 @media screen and (min-width: 768px) {
     .container {
-        padding-top: 32px;
-
+        margin-top: 32px;
+        width: 704px;
     }
 
     .section {
@@ -107,7 +117,7 @@ img {
 /* ----DESKTOP--- */
 @media screen and (min-width: 1440px) {
     .container {
-        padding-top: 32px;
+        margin-top: 32px;
         width: 1312px;
     }
 
