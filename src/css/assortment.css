@@ -1,13 +1,26 @@
-.section-asortment {}
+.section-asortment {
+    background: tomato;
+}
 
 .assortment-container {
     display: flex;
+    justify-content: center;
+    background: rgb(231, 235, 17);
 }
 
-.assortment-list {}
+.assortment-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background: #345594;
+}
 
 .assortment-item {
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 288px;
 }
 
 .assortment-img {
@@ -79,7 +92,15 @@
     opacity: 0.6;
 }
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .assortment-list {
+        gap: 30px;
+    }
+
+    .assortment-container {
+        padding: 0 20px;
+    }
+}
 
 @media screen and (min-width: 1440px) {}
 
