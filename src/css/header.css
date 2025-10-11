@@ -157,6 +157,10 @@
     padding-top: 14px;
 }
 
+.burger {
+    margin: 0;
+}
+
 .mobile-menu-nav {
     margin-bottom: auto;
     margin-top: 32px;
