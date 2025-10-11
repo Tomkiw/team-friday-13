@@ -57,7 +57,7 @@ font-family: "Comfortaa", sans-serif;
 
 
 .about-text {
-  font-family:  "Fira Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -95,6 +95,8 @@ display: none;
   .about-text {
     width: 573px;
     font-size: 18px;
+    word-break: break-word;
+    white-space: normal;
   }
 }
 
@@ -113,14 +115,16 @@ display: none;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0;
+    margin: 0 auto;
+    background-position: center center;
   }
 
   .about-container {
 margin: 112px auto 94px 
 }
-.about-subtitle{
+.about-subtitle {
  font-size: 56px;
+ max-width: 629px;
 }
 
 .about-subtitle br {
