@@ -86,7 +86,9 @@
         flex-grow: 1;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        /* ПОтрібно прибрати justify-content: space-between; він тут лишній але вирішити по іншому цю задачу */
+        justify-content: center;
+        /* justify-content: space-between; */
     }
 }
 
@@ -95,7 +97,7 @@
     .assortment-list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+
         gap: 64px 24px;
     }
 
