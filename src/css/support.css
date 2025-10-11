@@ -19,7 +19,6 @@
 .support-title {
     font-family: 'Comfortaa', cursive;
     color: #030A06FF;
-    font-weight: 700;
     line-height: 120%;
     letter-spacing: 0.01em;
     max-width: 288px;
@@ -29,7 +28,6 @@
 .support-subtitle {
     color: #030A06FF;
     font-weight: 400;
-    font-size: 18px;
     line-height: 160%;
     margin-bottom: 32px;
 }
