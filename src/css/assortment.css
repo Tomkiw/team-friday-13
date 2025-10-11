@@ -62,12 +62,16 @@
     color: #113916;
 }
 
+.assortment-content {
+    width: 100%;
+}
+
 /* ----- Tablet ----- */
 @media screen and (min-width: 768px) {
 
     .assortment-list {
-        display: flex;
-        flex-wrap: wrap;
+        /* display: flex;
+        flex-wrap: wrap; */
         justify-content: center;
         gap: 48px 24px;
     }
@@ -100,11 +104,11 @@
     }
 
     .assortment-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         width: calc((100% - 72px) / 4);
         max-width: 310px;
     }
+
+
+
 
 }
