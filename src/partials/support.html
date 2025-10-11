@@ -1,0 +1,48 @@
+<section id="support" class="section support">
+  <div class="container support-container">
+    <h2 class="support-title">Залишились питання? Зв'яжіться з нами!</h2>
+    <h3 class="support-subtitle">Ми тут, щоб допомогти!</h3>
+    <form class="support-form">
+      <label class="support-label">
+        <p class="label-text">Ім'я</p>
+        <input
+          type="text"
+          id="name-input"
+          name="name-input"
+          class="support-input"
+          minlength="5"
+          maxlength="64"
+          placeholder="Іван"
+          required
+        />
+        <p class="input-invalid">Поле має містити від 5 до 64 символів.</p>
+      </label>
+      <label class="support-label">
+        <p class="label-text">Електронна пошта</p>
+        <input
+          type="email"
+          id="email-input"
+          name="email-input"
+          class="support-input"
+          placeholder="hello@ecotote.com"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
+        />
+        <p class="input-invalid">
+          Недійсна адреса електронної пошти, спробуйте ще раз.
+        </p>
+      </label>
+      <label class="support-label message-label">
+        <p class="label-text">Повідомлення</p>
+        <textarea
+          id="message"
+          name="message"
+          class="support-input message"
+          maxlength="500"
+          placeholder="Введіть своє повідомлення..."
+        ></textarea>
+      </label>
+      <button type="submit" class="send-support-btn">Надіслати</button>
+    </form>
+  </div>
+</section>
