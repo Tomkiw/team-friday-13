@@ -1,5 +1,4 @@
 .support-container {
-    padding: 0 16px;
     display: flex;
     flex-direction: column;
     min-height: 1197px;
@@ -130,8 +129,6 @@
 
 @media screen and (min-width: 768px) {
     .support-container {
-        max-width: 768px;
-        padding: 0;
         min-height: 1111px;
         background-image: url('/img/support/tablet-supportbckg.png');
         background-size: 704px 428px;
@@ -158,15 +155,11 @@
 
 @media screen and (min-width: 1440px) {
     .support-container {
-        max-width: 1312px;
+        max-width: 1440px;
         min-height: 768px;
         background-image: url('/img/support/desktop-supportbckg.png');
         background-size: 644px 767px;
         background-position: bottom 50% right 0;
-    }
-
-    .section {
-        min-width: 1440px;
     }
 
     .support-title {
