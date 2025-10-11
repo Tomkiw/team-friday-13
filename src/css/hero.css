@@ -1,5 +1,6 @@
 .hero {
   padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .hero-title {
@@ -42,7 +43,7 @@
 
 @media only screen and (min-width: 768px) {
   .hero {
-    padding-top: unset;
+    padding-top: 32;
     display: flex;
     flex-wrap: wrap;
   }
