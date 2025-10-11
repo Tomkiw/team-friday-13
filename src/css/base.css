@@ -43,20 +43,36 @@ p {
 
 
 h1 {
+    font-weight: 700;
     font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+
 
 }
 
 h2 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
     font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+
 }
 
 h3 {
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+
 }
 
 p {
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+
+
 
 }
 
@@ -89,40 +105,38 @@ img {
 
 /* ------------- */
 .container {
-    max-width: 320px;
+    width: 320px;
     margin: 0 auto;
-    margin-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .section {
-    min-width: 320px;
-    padding: 32px 16px;
-    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 /* ----TABLET--- */
 @media screen and (min-width: 768px) {
     .container {
-        margin-top: 32px;
-        width: 704px;
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .section {
-        padding: 64px 32px;
-        width: 768px;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
-
 }
+
 
 /* ----DESKTOP--- */
 @media screen and (min-width: 1440px) {
     .container {
-        margin-top: 32px;
-        width: 1312px;
+        width: 1440px;
+        padding-left: 64px;
+        padding-right: 64px;
     }
 
-    .section {
-        padding: 64px;
-        width: 1440px;
-    }
 }
