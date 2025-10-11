@@ -70,8 +70,6 @@
 @media screen and (min-width: 768px) {
 
     .assortment-list {
-        /* display: flex;
-        flex-wrap: wrap; */
         justify-content: center;
         gap: 48px 24px;
     }
@@ -90,8 +88,6 @@
         flex-direction: column;
         justify-content: space-between;
     }
-
-
 }
 
 /* ------ Desktop ----- */
@@ -107,8 +103,4 @@
         width: calc((100% - 72px) / 4);
         max-width: 310px;
     }
-
-
-
-
 }
