@@ -1,5 +1,7 @@
 body {
     font-family: 'Fira Sans', sans-serif;
+    background: #ebf8ed;
+    color: #030a06;
 }
 
 .bold-comfortaa {
@@ -77,41 +79,48 @@ img {
     overflow: hidden;
 }
 
-* {
-    box-sizing: border-box;
+.section-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
 }
+
 
 /* ------------- */
 .container {
-    max-width: 320px;
-    padding: 32px 16px;
+    width: 320px;
     margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .section {
-    min-width: 320px;
-    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
+/* ----TABLET--- */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
-        padding: 0 32px;
+        width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
     .section {
-        min-width: 768px;
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
-
 }
 
+
+/* ----DESKTOP--- */
 @media screen and (min-width: 1440px) {
     .container {
-        max-width: 1312px;
-        padding: 0 64px;
+        width: 1440px;
+        padding-left: 64px;
+        padding-right: 64px;
     }
 
-    .section {
-        min-width: 1440px;
-    }
 }
