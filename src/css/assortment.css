@@ -104,12 +104,12 @@
 /* ------ Desktop ----- */
 @media screen and (min-width: 1440px) {
 
-    .assortment-container {
+    /* .assortment-container {
         width: 100%;
         max-width: 1440px;
-        /* padding: 0 64px; */
-        /* margin: 0 auto; */
-    }
+        padding: 0 64px;
+        margin: 0 auto;
+    } */
 
     .assortment-list {
         display: flex;
