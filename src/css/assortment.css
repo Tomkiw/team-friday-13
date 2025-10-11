@@ -12,7 +12,7 @@
 .assortment-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px 24px;
+    gap: 40px;
 }
 
 .assortment-item {
@@ -78,6 +78,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 48px 24px;
     }
 
     .assortment-item {
