@@ -1,7 +1,3 @@
-.support {
-    background-color: #EBF8ED;
-}
-
 .support-container {
     padding: 0 16px;
     display: flex;
@@ -9,9 +5,10 @@
     min-height: 1197px;
     background-image: url('/img/support/mobile-supportbckg.png');
     background-repeat: no-repeat;
+    background-origin: content-box;
     background-position: bottom;
     background-size: 288px 428px;
-    background-origin: content-box;
+    
 }
 
 @media (min-resolution: 192dpi) {
@@ -24,7 +21,6 @@
     font-family: 'Comfortaa', cursive;
     color: #030A06FF;
     font-weight: 700;
-    font-size: 36px;
     line-height: 120%;
     letter-spacing: 0.01em;
     max-width: 288px;
@@ -163,7 +159,6 @@
 @media screen and (min-width: 1440px) {
     .support-container {
         max-width: 1312px;
-        padding: 0;
         min-height: 768px;
         background-image: url('/img/support/desktop-supportbckg.png');
         background-size: 644px 767px;
