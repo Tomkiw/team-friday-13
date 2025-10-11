@@ -1,1 +1,44 @@
-<section>Hero</section>
+<section class="section">
+  <div class="container hero">
+    <div class="hero-text-wrapper">
+      <h1 class="hero-title bold-comfortaa">
+        EcoTote — Стиль, що не шкодить планеті.
+      </h1>
+      <div class="hero-content">
+        <p class="hero-description">
+          Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+          відповідальність разом з EcoTote.
+        </p>
+        <a href="#assortment" class="btn-primary">Купити зараз</a>
+      </div>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          /img/hero/hero_desktop_img_1x.webp 1x,
+          /img/hero/hero_desktop_img_2x.webp 2x
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          /img/hero/hero_tablet_img_1x.webp 1x,
+          /img/hero/hero_tablet_img_2x.webp 2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          /img/hero/hero_mobile_img_1x.webp 1x,
+          /img/hero/hero_mobile_img_2x.webp 2x
+        "
+      />
+      <img
+        src="/img/hero/hero_desktop_img_1x.webp"
+        alt="Beige and green EcoTote bags outdoors"
+        class="hero-image"
+      />
+    </picture>
+  </div>
+</section>
