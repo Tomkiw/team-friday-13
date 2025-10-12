@@ -1,20 +1,167 @@
 .footer {
     background-color: #75D281;
-    width: 320px;
-}
-
-.container {
-    padding-left: 20px;
-    padding-right: 20px;
+    min-width: 320px;
 }
 
 .footer-container {
     display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 48px 20px;
+}
 
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     gap: 48px;
 }
-.footer-nav {
+
+.footer-logo {
     display: flex;
+    justify-content: center;
+    width: 280px;
+    height: 121px;
+}
+
+.footer-icon-logo {
+    width: 273px;
+    height: 102px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.footer-menu-link {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-icon-list {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 80px;
+    gap: 24px;
+}
+
+.footer-line {
+    border: 1px solid rgba(3, 10, 6, 0.15);
+    width: 280px;
+    height: 0px;
+}
+
+.footer-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    font-style: normal;
+}
+
+.footer-contact-link {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-copyright {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+    .footer {
+        min-width: 768px;
+    }
+
+    .footer-container {
+        padding: 64px 32px;
+    }
+
+    .footer-content {
+        gap: 32px;
+    }
+
+    .footer-logo {
+        width: 164px;
+        height: 70px;
+    }
+
+    .footer-icon-logo {
+        width: 160px;
+        height: 60px;
+    }
+
+    .footer-menu {
+        flex-direction: row;
+    }
+
+    .footer-icon-list {
+        width: 144px;
+        gap: 12px;
+    }
+
+    .footer-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-contacts {
+        gap: 16px;
+    }
+
+    .footer-line {
+        width: 100%;
+    }
+
+    .footer-contacts-list {
+        flex-direction: row;
+        gap: 32px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer {
+        min-width: 1440px;
+    }
+
+    .footer-container {
+        padding: 80px 64px;
+        gap: 52px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .footer-logo {
+        width: 341px;
+        justify-content: start;
+    }
+
+    .footer-menu {
+        gap: 32px;
+    }
+
+    .footer-icon-list {
+        justify-content: end;
+        width: 341px;
+    }
+
+    .footer-icon {
+        width: 24px;
+        height: 24px;
+    }
 }
