@@ -26,8 +26,8 @@ ol {
 }
 
 a {
+    color: currentColor;
     text-decoration: none;
-    /* color: #2E2F42; */
 }
 
 h1,
@@ -41,6 +41,13 @@ p {
     padding: 0;
 }
 
+p:last-child {
+    margin-bottom: 0;
+}
+
+button {
+    cursor: pointer;
+}
 
 h1 {
     font-weight: 700;
