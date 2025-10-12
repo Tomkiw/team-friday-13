@@ -41,6 +41,16 @@
     line-height: 1.6;
 }
 
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+    border-bottom: 1px solid #030a06;
+}
+
+.footer-menu-link:active {
+    border-bottom: 1px solid #3ac04c;
+    color: #3ac04c;
+}
+
 .footer-icon-list {
     display: flex;
     gap: 12px;
