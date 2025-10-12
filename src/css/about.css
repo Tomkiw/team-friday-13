@@ -55,7 +55,6 @@ font-family: "Comfortaa", sans-serif;
   margin: 0 0 20px;
 }
 
-
 .about-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
@@ -69,7 +68,6 @@ font-family: "Comfortaa", sans-serif;
   .about-section {
     max-width: 1439px;
     background-image: url("/img/about/about-tab-1x.jpg");
-   
   }
 
   .about-container {
