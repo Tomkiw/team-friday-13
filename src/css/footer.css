@@ -84,11 +84,6 @@
     line-height: 1.6;
 }
 
-.footer-copyright {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
 @media screen and (min-width: 768px) {
     .footer {
         min-width: 768px;
