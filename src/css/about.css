@@ -15,8 +15,7 @@
 @media (min-resolution: 2dppx) {
   .about-section {
     background-image: 
-      url("/img/about/about-mob-2x.jpg"),
-      url("/img/about/about-mob-1x.jpg");
+      url("/img/about/about-mob-2x.jpg");
   }
 }
 
@@ -70,7 +69,6 @@ font-family: "Comfortaa", sans-serif;
   .about-section {
     max-width: 1439px;
     background-image: url("/img/about/about-tab-1x.jpg");
-   
   }
 
   .about-container {
@@ -97,8 +95,7 @@ font-family: "Comfortaa", sans-serif;
 
   @media (min-width: 768px) and (min-resolution: 2dppx) {
     .about-section {
-      background-image: url("/img/about/about-tab-2x.jpg"),
-      url("/img/about/about-tab-1x.jpg");
+      background-image: url("/img/about/about-tab-2x.jpg");
     }
   }
 
@@ -125,7 +122,6 @@ display: inline;
 }
  @media (min-width: 1440px) and (min-resolution: 2dppx) {
     .about-section {
-      background-image: url("/img/about/about-main-2x.jpg"),
-      url("/img/about/about-main-1x.jpg");
+      background-image: url("/img/about/about-main-2x.jpg");
     }
   }
