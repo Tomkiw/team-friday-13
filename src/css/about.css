@@ -36,7 +36,6 @@ margin: 64px 0;
   display: flex;
 margin-bottom: 12px;}
 
-
 .about-content {
   max-width: 288px;
   flex-direction: column;
@@ -54,7 +53,6 @@ font-family: "Comfortaa", sans-serif;
   color: #ffffff;
   margin: 0 0 20px;
 }
-
 
 .about-text {
   font-family: "Fira Sans", sans-serif;
@@ -109,7 +107,7 @@ font-family: "Comfortaa", sans-serif;
   }
 
   .about-container {
-margin: 112px auto 94px 
+margin: 112px auto 94px; 
 }
 .about-subtitle {
  font-size: 56px;
