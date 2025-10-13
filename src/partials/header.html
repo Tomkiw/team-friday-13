@@ -1,8 +1,8 @@
 <header class="header">
   <div class="container flex-header-box">
     <nav class="header-nav">
-      <a class="footer-logo" href="/index.html">
-        <svg class="footer-icon-logo" aria-label="Логотип">
+      <a class="header-logo" href="/index.html">
+        <svg class="header-icon-logo" aria-label="Логотип">
           <use href="/img/main-logo.svg#main-logo"></use>
         </svg>
       </a>
@@ -36,7 +36,7 @@
           <a href="tel:+110001111111" class="nav-menu-a">+38 (099) 909 11 22</a>
         </li>
         <li class="social-link">
-          <a href="mailto:hello@ecotote.com" class="nav-menu- a"
+          <a href="mailto:hello@ecotote.com" class="nav-menu-a"
             >hello@ecotote.com</a
           >
         </li>
@@ -44,7 +44,7 @@
     </address>
     <button class="burger" type="button" data-mobile-open>
       <svg class="burger-icon" width="32" height="32">
-        <use href="../img/header/burger.svg"></use>
+        <use href="/img/icons.svg#menu"></use>
       </svg>
     </button>
   </div>
@@ -56,17 +56,15 @@
     <div class="container mobile-menu-container">
       <div>
         <div>
-          <img
-            src="/img/header/ Logo.svg"
-            class="ecologo- mobile"
-            alt="logo"
-            width="106.51"
-            height="45.65"
-          />
+          <a class="menu-header-logo" href="/index.html">
+            <svg class="header-icon-logo" aria-label="Логотип">
+              <use href="/img/main-logo.svg#main-logo"></use>
+            </svg>
+          </a>
         </div>
-        <div data-mobile-close>
+        <div class="container-mobile-menu-close" data-mobile-close>
           <svg class="mobile-menu-close" width="32" height="32">
-            <use href="/img/header/ close.svg"></use>
+            <use href="/img/icons.svg#close"></use>
           </svg>
         </div>
       </div>
@@ -98,7 +96,7 @@
           </li>
         </ul>
       </nav>
-      <address class="">
+      <address class="address-mobile-menu">
         <ul class="mobile-social">
           <li class="mobil-social-li">
             <a href="tel:+38(099)9091122" class="color- number"
