@@ -16,8 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .ul-ecotote {
@@ -31,6 +29,7 @@
 .header-icon-logo {
     width: 84px;
     height: 36px;
+
 }
 
 .menu-header-logo {
@@ -198,10 +197,19 @@
 
 /* =================== Tablet ================ */
 @media screen and (min-width: 768px) {
+    .header {
+        background: #ee7e7e;
+        min-width: 768px;
+    }
+
     .mobile-menu-container {
         width: 768px;
     }
 
+
+    .container-header-logo {
+        margin-left: 20px;
+    }
 }
 
 /* =================1440====================== */
@@ -209,6 +217,16 @@
 @media screen and (min-width:1440px) {
     .header {
         padding: 24px 0;
+        height: 72px;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+    .header-logo {
+
+        margin-left: 20px;
     }
 
     .header-ecotote {
