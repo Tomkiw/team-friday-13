@@ -515,7 +515,7 @@
   flex-direction: column;
 }
 
-.support-label {
+.support-item {
   color: #030A06;
   max-width: 288px;
   font-size: 16px;
@@ -525,6 +525,7 @@
 }
 
 .label-text {
+  display: block;
   margin-bottom: 8px;
 }
 
@@ -616,7 +617,7 @@
     max-width: 468px;
   }
 
-  .support-label {
+  .support-item {
     max-width: 704px;
   }
 
@@ -645,7 +646,7 @@
     max-width: 644px;
   }
 
-  .support-label {
+  .support-item {
     max-width: 644px;
   }
 
