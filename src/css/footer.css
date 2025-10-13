@@ -84,6 +84,8 @@
     line-height: 1.6;
 }
 
+/* ------- Tablet styles ------- */
+
 @media screen and (min-width: 768px) {
     .footer {
         min-width: 768px;
@@ -134,6 +136,8 @@
         gap: 32px;
     }
 }
+
+/* ------- Desktop styles ------- */
 
 @media screen and (min-width: 1440px) {
     .footer {
