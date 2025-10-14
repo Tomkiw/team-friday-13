@@ -98,6 +98,7 @@
 
     background-color: #75D281;
     margin: 0 auto;
+    z-index: 999;
 }
 
 .mobile-menu-container {
