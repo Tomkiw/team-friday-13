@@ -1,0 +1,148 @@
+.advantages-section {
+display: flex;
+flex-direction: column;
+gap: 48px;
+}
+
+.advantages-header {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.advantages-subtitle {
+font-size: 16px;
+line-height: 1.5;
+}
+
+.advantages-header-box {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.advantages-description {
+font-size: 16px;
+}
+
+.advantages-list {
+display: flex;
+flex-wrap: wrap;
+gap: 48px;
+}
+
+.advantage-image {
+border-radius: 32px;
+ }
+
+.advantage-heading {
+font-family: "Comfortaa", sans-serif;
+font-size: 24px;
+line-height: 1.4;
+letter-spacing: 0.01em;
+margin-top: 8px;
+}
+
+.advantage-text {
+margin-top: 4px;
+font-size: 16px;
+ }
+
+ @media (min-width: 768px) {
+.advantages-section {
+gap: 32px;
+}
+
+.advantages-header {
+gap: 16px;
+}
+
+.advantages-header-box {
+gap: 24px;
+}
+
+.advantages-description {
+font-size: 18px;
+}
+
+.advantages-list-wrapper {
+display: flex;
+flex-wrap: wrap;
+}
+
+.advantages-list {
+display: grid;
+grid-template-columns: repeat(2, 2fr);
+grid-column-gap: 24px;
+grid-row-gap: 24px;
+}
+
+.advantage-card:nth-child(1) {
+grid-area: 1 / 1 / 2 / 2;
+}
+
+.advantage-card:nth-child(2) {
+display: flex;
+flex-direction: column;
+height: 100%;
+grid-area: 1 / 2 / 2 / 3;
+    }
+
+.advantage-card:nth-child(2) .advantage-text {
+margin-top: auto;
+}
+
+.advantage-card:nth-child(3) {
+grid-area: 2 / 1 / 3 / 3;
+}
+
+.advantage-heading {
+margin-top: 32px;
+margin-bottom: 8px;
+}
+}
+
+ @media (min-width: 1440px) {
+.advantages-section {
+gap: 80px;
+}
+
+.advantages-header-box p {
+max-width: 768px;
+margin-left: 0;
+margin-right: auto;
+}
+
+.advantages-list {
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-row-gap: 0px;
+width: 100%;
+max-width: none;
+    }
+
+.advantage-card:nth-child(3) {
+grid-area: 1 / 3 / 2 / 4;
+}
+
+.advantage-card:nth-child(2) .advantage-text {
+margin-top: unset;
+}
+
+.advantage-card {
+height: auto;
+}
+
+.advantage-heading {
+font-size: 32px;
+margin-bottom: auto;
+}
+
+.advantages-title {
+font-size: 48px;
+}
+
+.advantage-text {
+margin-top: 24px;
+}
+}
