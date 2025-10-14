@@ -1,7 +1,6 @@
 .header {
     background-color: #75D281;
     position: relative;
-
 }
 
 .flex-header-box {
@@ -46,8 +45,6 @@
     justify-content: center;
     width: 48px;
     height: 48px;
-    /* margin-left: auto; */
-
 }
 
 .burger-icon {
@@ -57,7 +54,6 @@
 
 .ecologo {
     width: 84px;
-    /* height: 36px; */
 }
 
 .nav-menu {
@@ -132,7 +128,6 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
-
 }
 
 
@@ -206,7 +201,6 @@
         width: 768px;
     }
 
-
     .container-header-logo {
         margin-left: 20px;
     }
@@ -221,8 +215,6 @@
         display: flex;
         align-items: center;
     }
-
-
 
     .header-logo {
 
