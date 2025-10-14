@@ -10,6 +10,8 @@
     body: document.body,
   };
 
+  if (!refs.modal) return;
+
   refs.openModalBtn.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
 
@@ -26,5 +28,15 @@
     if (event.key === "Escape" && refs.modal.classList.contains("is-open")) {
       toggleModal();
     }
+  });
+
+  refs.modal.addEventListener("click", (e) => {
+    const link = e.target.closest("a[href]");
+    if (!link) return;
+    
+    //Закриває модалку та переносить до відпопідної секції при натискані на лінк
+    if (link.getAttribute("href")?.startsWith("#")) {
+  toggleModal();
+}
   });
 })();
