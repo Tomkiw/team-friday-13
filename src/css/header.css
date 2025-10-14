@@ -96,7 +96,7 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2,
             1);
 
-    background-color: #db8a48;
+    background-color: #75D281;
     margin: 0 auto;
 }
 
@@ -198,7 +198,7 @@
 /* =================== Tablet ================ */
 @media screen and (min-width: 768px) {
     .header {
-        background: #ee7e7e;
+        background: #75d281;
         min-width: 768px;
     }
 
