@@ -42,7 +42,9 @@
 }
 
 .footer-menu-link:hover,
-.footer-menu-link:focus {
+.footer-menu-link:focus,
+.footer-contact-link:hover,
+ .footer-contact-link:focus {
     border-bottom: 1px solid #030a06;
 }
 
