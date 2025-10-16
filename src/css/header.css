@@ -194,8 +194,20 @@
 @media screen and (min-width: 768px) {
     .header {
         background: #75d281;
+        position: fixed;
         min-width: 768px;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 64px;
+        z-index: 1000;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     }
+        
+    main {
+            padding-top: 64px;
+    }
+    
 
     .mobile-menu-container {
         width: 768px;
