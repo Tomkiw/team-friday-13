@@ -6,7 +6,7 @@
   justify-content: center;
   max-width: 767px;
   background: 
-    url("/img/about/about-mob-1x.jpg"); 
+    url("/img/about/about-mob-1x.webp"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 @media (min-resolution: 2dppx) {
   .about-section {
     background-image: 
-      url("/img/about/about-mob-2x.jpg");
+      url("/img/about/about-mob-2x.webp");
   }
 }
 
@@ -24,6 +24,7 @@
    display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 64px 0;
 }
 
 .about-title {
@@ -33,6 +34,8 @@
   color: #ffffff;
   display: flex;
 margin-bottom: 12px;
+font-family: "Fira Sans", sans-serif;
+font-weight: 600;
 }
 
 .about-content {
@@ -49,18 +52,21 @@ margin-bottom: 12px;
   text-align: center;
   color: #ffffff;
   margin: 0 0 20px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
 }
 
 .about-text {
   text-align: center;
   color: #ffffff;
+  font-size: 16px;
 }
 
 /* Tablet */
 @media (min-width: 768px) {
   .about-section {
     max-width: 1439px;
-    background-image: url("/img/about/about-tab-1x.jpg");
+    background-image: url("/img/about/about-tab-1x.webp");
   }
 
   .about-container {
@@ -87,7 +93,7 @@ margin-bottom: 12px;
 
   @media (min-width: 768px) and (min-resolution: 2dppx) {
     .about-section {
-      background-image: url("/img/about/about-tab-2x.jpg");
+      background-image: url("/img/about/about-tab-2x.webp");
     }
   }
 
@@ -95,13 +101,17 @@ margin-bottom: 12px;
 @media (min-width: 1440px) {
   .about-section {
     width:100%;
-    background-image: url("/img/about/about-main-1x.jpg");
+    background-image: url("/img/about/about-main-1x.webp");
     margin: 0 auto;
     background-position: center center;
   }
 
   .about-container {
-margin: 112px auto 94px;
+  max-width: 768px; 
+  margin: 112px auto 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-subtitle {
@@ -109,12 +119,13 @@ margin: 112px auto 94px;
  max-width: 629px;
 }
 
-.about-subtitle br {
+.about-subtitle {
 display: inline;
 }
+
 }
  @media (min-width: 1440px) and (min-resolution: 2dppx) {
     .about-section {
-      background-image: url("/img/about/about-main-2x.jpg");
+      background-image: url("/img/about/about-main-2x.webp");
     }
   }
