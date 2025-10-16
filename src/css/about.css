@@ -6,7 +6,7 @@
   justify-content: center;
   max-width: 767px;
   background: 
-    url("/img/about/about-mob-1x.webp"); 
+    url("/img/about/about-mobil-1x.webp"); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 @media (min-resolution: 2dppx) {
   .about-section {
     background-image: 
-      url("/img/about/about-mob-2x.webp");
+      url("/img/about/about-mobil-2x.webp");
   }
 }
 
