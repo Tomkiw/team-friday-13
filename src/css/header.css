@@ -1,5 +1,5 @@
 .header {
-    background-color: #75D281;
+    background-color: #7a137248;
     position: fixed;
     top: 0;
     left: 0;
@@ -204,7 +204,7 @@ main {
 @media screen and (min-width: 768px) {
     .header {
         min-width: 768px;
-    }    
+    }
 
     .mobile-menu-container {
         width: 768px;
