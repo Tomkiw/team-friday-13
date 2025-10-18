@@ -110,6 +110,11 @@
         width: calc((100% - 72px) / 4);
     }
 
+    .assortment-cnt {
+        margin: auto 0;
+        flex-grow: unset;
+    }
+
     .assortment-title {
         font-size: 48px;
     }
