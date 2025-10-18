@@ -4,7 +4,6 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 64px;
     z-index: 1000;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
@@ -17,7 +16,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 12px 0 20px;
     height: 64px;
 }
 
@@ -27,7 +26,7 @@ main {
     justify-content: center;
 }
 
-.ul-ecotote {
+.header-list {
     display: none;
 }
 
@@ -60,10 +59,6 @@ main {
 .burger-icon {
     display: inline-block;
     fill: #030A06;
-}
-
-.ecologo {
-    width: 84px;
 }
 
 .nav-menu {
@@ -206,57 +201,42 @@ main {
         min-width: 768px;
     }
 
-    .mobile-menu-container {
-        width: 768px;
+    .flex-header-box {
+        padding: 0 16px 0 32px;
     }
 
-    .container-header-logo {
-        margin-left: 20px;
+    .mobile-menu-container {
+        width: 768px;
     }
 }
 
 /* =================1440====================== */
 
 @media screen and (min-width:1440px) {
+    main {
+        padding-top: 72px;
+    }
     .header {
-        padding: 24px 0;
-        height: 72px;
         display: flex;
         align-items: center;
     }
 
-    .header-logo {
-
-        margin-left: 20px;
+    .flex-header-box {
+        padding: 23px 64px 23px 64px;
+        height: 72px;
     }
 
-    .header-ecotote {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #030A06;
-        font-family: "Raleway", sans-serif;
+    .header-icon-logo {
+        width: 104px;
+        height: 39px;
     }
 
-    .ul-ecotote {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.6;
-        letter-spacing: 0.02em;
-        color: #030A06;
+    .header-list {
         cursor: pointer;
         display: flex;
         gap: 32px;
         align-items: center;
         flex-direction: row;
-    }
-
-    .ecologo {
-        width: 106.51px;
-        height: 45.65px;
-        justify-content: space-between;
     }
 
     .header-address {
