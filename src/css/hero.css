@@ -22,7 +22,7 @@
   padding: 12px 24px;
   width: 288px;
   background: #030a06;
-  display: block;
+  display: inline-block;
   text-align: center;
 }
 
@@ -77,7 +77,9 @@
   }
 
   .btn-hero {
-    width: 150px;
+    width: 148px;
+    height: 50px;
+    white-space: nowrap;
   }
 
   .hero-image {
@@ -100,4 +102,5 @@
   .hero-content {
     width: calc((100% - 32px) / 2);
   }
+
 }
