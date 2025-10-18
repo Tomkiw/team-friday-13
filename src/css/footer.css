@@ -243,4 +243,12 @@
         color: #fff;
         transform: translateY(-1px);
     }
+
+    .footer-icon-logo {
+        height: 67px;
+    }
+    
+    .footer-copyright {
+        font-size: 14px;
+    }
 }
