@@ -1,0 +1,278 @@
+.header {
+    background-color: #75D281;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+main {
+    padding-top: 64px;
+}
+
+.flex-header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px 0 20px;
+    height: 64px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-list {
+    display: none;
+}
+
+.header-address {
+    display: none;
+}
+
+.header-icon-logo {
+    width: 84px;
+    height: 36px;
+
+}
+
+.menu-header-logo {
+    width: 84px;
+    height: 36px;
+}
+
+.burger {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+
+.burger-icon {
+    display: inline-block;
+    fill: #030A06;
+}
+
+.nav-menu {
+    gap: 32px;
+}
+
+.nav-menu-a {
+    color: #030A06;
+}
+
+.header-social-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.social-list {
+    display: flex;
+}
+
+/* ===============mobile-menu========= */
+
+.mobile-menu {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #75D281;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2,
+            1);
+
+    background-color: #75D281;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+.mobile-menu-container {
+    position: relative;
+    padding-top: 14px;
+    padding-bottom: 92px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 320px;
+}
+
+.mobile-nav-ul {
+    padding-top: 32px;
+}
+
+.mobile-menu.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.mobile-menu-close {
+    /* padding: 8px; */
+    position: absolute;
+    margin: 8px;
+    top: 8px;
+    right: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+
+.mobile-menu-close:hover,
+.mobile-menu-close:focus {
+    border: none;
+}
+
+.mobile-menu-nav {
+    margin-bottom: auto;
+    margin-top: 0;
+    flex-grow: 1;
+
+}
+
+
+
+.mobile-nav-li {
+    padding-bottom: 32px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    letter-spacing: 0.02em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobil-social-li {
+
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-style: normal;
+}
+
+.mobil-social-li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.mobile-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-top: 32px;
+}
+
+.mobile-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-svg {
+    display: block;
+}
+
+
+
+/* =================== Tablet ================ */
+@media screen and (min-width: 768px) {
+    .header {
+        min-width: 768px;
+    }
+
+    .flex-header-box {
+        padding: 0 16px 0 32px;
+    }
+
+    .mobile-menu-container {
+        width: 768px;
+    }
+}
+
+/* =================1440====================== */
+
+@media screen and (min-width:1440px) {
+    main {
+        padding-top: 72px;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+    }
+
+    .flex-header-box {
+        padding: 23px 64px 23px 64px;
+        height: 72px;
+    }
+
+    .header-icon-logo {
+        width: 104px;
+        height: 39px;
+    }
+
+    .header-list {
+        cursor: pointer;
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .header-address {
+        font-style: normal;
+        display: block;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .nav-menu-a {
+        position: relative;
+    }
+
+    .nav-menu-a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        width: 100%;
+        height: 1px;
+
+        background-color: transparent;
+    }
+
+    .nav-menu-a:hover::after,
+    .nav-menu-a:focus::after {
+        background-color: currentColor;
+    }
+
+    .nav-menu-a:active {
+        color: #3ac04c;
+    }
+
+    .nav-menu-a:active::after {
+        background-color: currentColor;
+    }
+}

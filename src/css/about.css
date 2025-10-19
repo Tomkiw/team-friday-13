@@ -1,0 +1,131 @@
+/* ================== About Section ================== */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 767px;
+  background: 
+    url("/img/about/about-mob-1x.webp"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-resolution: 2dppx) {
+  .about-section {
+    background-image: 
+      url("/img/about/about-mob-2x.webp");
+  }
+}
+
+.about-container {
+  max-width: 288px;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px 0;
+}
+
+.about-title {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+margin-bottom: 12px;
+font-family: "Fira Sans", sans-serif;
+font-weight: 600;
+}
+
+.about-content {
+  max-width: 288px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.about-subtitle {
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 0 20px;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+}
+
+.about-text {
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .about-section {
+    max-width: 1439px;
+     background-image: url("/img/about/about-tab-1x.webp");
+  }
+
+  .about-container {
+    max-width: 768px;
+    margin: 80px 0;
+  }
+
+  .about-title {
+    margin-bottom: 16px; 
+  }
+
+  .about-subtitle {
+  width: 629px;
+    margin: 0 0 24px; 
+  }
+
+  .about-text {
+    width: 573px;
+    font-size: 18px;
+    word-break: break-word;
+    white-space: normal;
+  }
+}
+
+  @media (min-width: 768px) and (min-resolution: 2dppx) {
+    .about-section {
+      background-image: url("/img/about/about-tab-2x.webp");
+    }
+  }
+
+/* Desktop */
+@media (min-width: 1440px) {
+  .about-section {
+    width:100%;
+    background-image: url("/img/about/about-main-1x.webp");
+    margin: 0 auto;
+    background-position: center center;
+  }
+
+  .about-container {
+  max-width: 768px; 
+  margin: 112px auto 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-subtitle {
+ font-size: 56px;
+ max-width: 629px;
+}
+
+.about-subtitle {
+display: inline;
+}
+
+}
+ @media (min-width: 1440px) and (min-resolution: 2dppx) {
+    .about-section {
+      background-image: url("/img/about/about-main-2x.webp");
+    }
+  }
