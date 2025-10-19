@@ -186,4 +186,8 @@
     .support-container {
         background-image: url(/img/support/desktop-supportbckg@2x.png);
     }
+
+    .support-subtitle {
+        font-size: 18px;
+    }
 }
