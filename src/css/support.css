@@ -28,7 +28,7 @@
 .support-subtitle {
     color: #030A06FF;
     font-weight: 400;
-    line-height: 160%;
+    line-height: 1.6;
     margin-bottom: 32px;
 }
 
@@ -41,12 +41,13 @@
     color: #030A06;
     max-width: 288px;
     font-size: 16px;
-    line-height: 160%;
+    line-height: 1.6;
     margin-bottom: 24px;
     position: relative;
 }
 
 .label-text {
+    font-size: 16px;
     margin-bottom: 8px;
 }
 
